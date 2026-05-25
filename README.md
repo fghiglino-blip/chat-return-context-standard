@@ -101,7 +101,8 @@ Applying the net unit efficiency gain to the daily volume yields the following a
 
 * **Daily Energy Conservation:** $$500,000,000 \times 0.5 \text{ Wh} = 250 \text{ MWh/day}$$
 * **Annual Energy Conservation:** $$250 \text{ MWh} \times 365 \text{ days} = 91,250 \text{ MWh/year}$$
-* **Systemic Revenue Multiplier Potential:** $$91,250,000 \text{ kWh} \times \$2.00 \text{ \text{token margin/kWh}} = \$182,500,000 \text{ ARR}$$
+* **Systemic Revenue Multiplier Potential:** $$91,250,000 \text{ kWh} \times \$2.00 \text{ token margin/kWh} = \$182,500,000 \text{ ARR}$$
+
 **Systemic Equivalent:** This optimization removes an annual load equivalent to roughly 8,500 standard domestic residential homes, directly easing pressure on utility grids that are structurally bottlenecked by data center expansion while converting waste cycles directly into high-margin revenue capacity.
 
 ### 4.3 Hyperscaler CapEx Optimization and Investment Reductions
