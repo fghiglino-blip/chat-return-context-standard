@@ -48,22 +48,22 @@ Traditional Retrieval-Augmented Generation (RAG) workflows incur an infrastructu
 When forced to re-parse data structures to inject static Markdown hyperlinks for an external word processor, the payload requires an auxiliary retrieval loop, spiking aggregate export consumption to an estimated **0.5 Wh to 0.8 Wh** per dense report. 
 
 * **CRCS Workflow Cost:** Appending the standardized plaintext metadata string and session token requires **0.0 Wh** of secondary search compute. The system leverages pre-existing session cache.
-* **Net Unit Efficiency Gain:** $\sim$**0.5 Wh** saved per document generation cycle.
+* **Net Unit Efficiency Gain:** ~**0.5 Wh** saved per document generation cycle.
 
 ### 4.2 Macro Energy Grid Scaling Model
 To model the impact of global standardization, we establish a conservative enterprise baseline across a globally distributed workforce utilizing AI productivity ecosystems (e.g., Microsoft 365 Copilot, Google Workspace, Claude for Business):
 
-* **Assumed Enterprise Active User Base ($U$):** 250,000,000 professionals
-* **Daily Document Export Volume ($V$):** 2 actions per user per day
-* **Total Daily Redundant Queries Eliminated ($Q$):** $$Q = 250,000,000 \times 2 = 500,000,000 \text{ actions/day}$$
+* **Assumed Enterprise Active User Base (U):** 250,000,000 professionals
+* **Daily Document Export Volume (V):** 2 actions per user per day
+* **Total Daily Redundant Queries Eliminated (Q):** $$250,000,000 \times 2 = 500,000,000 \text{ actions/day}$$
 
 Applying the net unit efficiency gain to the daily volume yields the following aggregate grid relief:
 
-$$\text{Daily Energy Conservation} = 500,000,000 \times 0.5 \text{ Wh} = 250 \text{ MWh/day}$$
+* **Daily Energy Conservation:** $$500,000,000 \times 0.5 \text{ Wh} = 250 \text{ MWh/day}$$
+* **Annual Energy Conservation:** $$250 \text{ MWh} \times 365 \text{ days} = 91,250 \text{ MWh/year}$$
+* **Systemic Revenue Multiplier Potential:** $$91,250,000 \text{ kWh} \times \$2.00 \text{ token margin/kWh} = \$182,500,000 \text{ ARR}$$
 
-$$\text{Annual Energy Conservation} = 250 \text{ MWh} \times 365 = \mathbf{91,250 \text{ MWh/year}}$$
-
-*Systemic Equivalent:* This optimization removes an annual load equivalent to roughly 8,500 standard domestic residential homes, directly easing pressure on utility grids that are structurally bottlenecked by data center expansion.
+**Systemic Equivalent:** This optimization removes an annual load equivalent to roughly 8,500 standard domestic residential homes, directly easing pressure on utility grids that are structurally bottlenecked by data center expansion while converting waste cycles directly into high-margin revenue capacity.
 
 ### 4.3 Hyperscaler CapEx Optimization and Investment Reductions
 In the current macroeconomic environment, aggregate capital expenditure (CapEx) by Tier-1 hyperscalers (Alphabet, Microsoft, Amazon, Meta, Oracle) is accelerating past **$700 Billion annually**, driven almost exclusively by hardware procurement (Nvidia H100/B200 clusters), specialized power sub-stations, and advanced liquid cooling infrastructure. 
@@ -73,7 +73,6 @@ Data center operators are fundamentally power-constrained; they face a backlogge
 By enforcing the CRCS protocol, the industry achieves a material **"Capacity Release"**:
 * **Hardware Asset Lifetime Extension:** Mitigates persistent, low-value inference cycles, reducing structural thermal stress and silicon degradation across massive GPU/TPU fleets.
 * **Avoided Capital Intensity:** If CRCS implementation suppresses total non-training background inference loads by a minor fractional threshold (e.g., 0.1% of systemic maintenance workloads), it scales linearly against the $700B industry investment pool. This micro-optimization translates to an estimated **$700 Million in avoided capital depreciation, physical wear, and auxiliary infrastructure overhead** globally.
-
 ---
 
 ## 5. How to Contribute & Implement
